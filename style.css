@@ -1,6 +1,7 @@
 :root {
 	--background: #111111;
 	--header-text: #00ff00;
+	--blog-text: rgb(252, 212, 212);
 }
 
 * {
@@ -76,13 +77,54 @@ img {
 	margin-bottom: 10px;
 }
 
+.card h3 {
+	color: var(--blog-text);
+}
+
 .card p {
 	color: white;
 	line-height: 1.5;
 }
 
+.blog-entry {
+	margin-bottom: 15px;
+	margin-top: 15px;
+	font-size: 20px;
+}
+
+.blog-entry a {
+	text-decoration: none;
+}
+
+.blog-entry a:hover {
+	text-decoration: underline;
+	text-decoration-color: white;
+}
+
 .blog-text {
+	text-align: left;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.blog-entry h6 {
+	color: white;
+}
+
+.personal {
+	color: red;
+}
+
+.blog-part {
 	text-align: center;
+}
+
+.back {
+	display: block;
+	margin-top: 10px;
+	font-size: 25px;
+	color: var(--blog-text);
+	text-decoration: none;
 }
 
 footer {
