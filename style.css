@@ -79,6 +79,8 @@ img {
 
 .card h3 {
 	color: var(--blog-text);
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 .card p {
@@ -125,6 +127,20 @@ img {
 	font-size: 25px;
 	color: var(--blog-text);
 	text-decoration: none;
+}
+
+button {
+	margin-top: 20px;
+	margin-right: 10px;
+	padding: 10px 15px;
+	border: 2px outset white;
+	background-color: #c0c0c0;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+button:hover {
+	border-style: inset;
 }
 
 footer {
